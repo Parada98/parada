@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>F</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Titulo</h1>
+        <hr>
+    </header>
+    <main class="main">
+        <span class="icono-menu" id="icono-menu"> Menu</span>
+        <nav class="menu">
+            <ul class="submenu" id="submenu">
+                <li><a href=""><span></span>Vinculo 1</a></li>
+                <li><a href=""><span></span>Vinculo 2</a></li>
+                <li><a href=""><span></span>Vinculo 3</a></li>
+                <li><a href=""><span></span>Vinculo 4</a></li>
+            </ul>
+        </nav>
+		<script>
+			var iconoMenu = document.getElementById('icono-menu')
+			var accion = document.getElementById('submenu')
+			var boolAccion = false
+			iconoMenu.addEventListener('click', function() {
+				if (boolAccion == false) {
+					accion.classList.add('mostrar')
+					boolAccion = true
+				} else if (boolAccion == true) {
+					accion.classList.remove('mostrar')
+					boolAccion = false
+				}
+			})
+		</script> 
+        <section class="articulo">
+            <!-- <img src="https://toppng.com/public/uploads/preview/capital-letter-f-letra-f-11563167744nphd2g4tcx.png" alt=""> -->
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAALVBMVEX///8AAADc3NwwMDBLS0t0dHTZ2dnh4eE7Ozs2NjYzMzMVFRV5eXn4+Pje3t4uQy0xAAABHUlEQVR4nO3aO1LDABAFQWHAfAzc/7gmc6IMia2Ruk/wJt3aZQEAAAAAAI7u7f1lRx/Teb8uT7uazlsUKlSo8D8oVKhwnkKFCucpVKhw3nrh5/SsDa0XPk/P2pDCPoV9CvsU9insU9insE9hn8I+hX0K+xT2KexT2KewT2Gfwj6FfQr7FPYp7FPYd9bC439f3r5e/2i662GvH+HprgeFChXOU6hQ4TyFChXOU6hQ4byzFh7/EqWwRGGfwj6FfQr7FPYp7FPYp7BPYZ/CPoV9CvsU9insU9insE9hn8I+hX0K+xT2KexT2KewT2Gfwj6FfQr7FPYp7FPYp7BPYZ/CPoV9CvsU9l1XC2/Tszb0fb2s+JmeBQAAAAAAAHBid8fwHSiou+v6AAAAAElFTkSuQmCC" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit repellendus animi nihil quos accusantium recusandae ullam nostrum odio aliquam doloremque libero, at eveniet, omnis voluptatum. Exercitationem repudiandae recusandae nisi?</p>
+        </section>
+        <aside class="aside">
+            <h3>Aside</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum maxime reprehenderit distinctio aperiam laboriosam, explicabo vitae dolorem, ipsam rerum quo consectetur laborum sit quas minus similique iure rem a doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum maxime reprehenderit distinctio aperiam laboriosam, explicabo vitae dolorem, ipsam rerum quo consectetur laborum sit quas minus similique iure rem a doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum maxime reprehenderit distinctio aperiam laboriosam, explicabo vitae dolorem, ipsam rerum quo consectetur laborum sit quas minus similique iure rem a doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum maxime reprehenderit distinctio aperiam laboriosam, explicabo vitae dolorem, ipsam rerum quo consectetur laborum sit quas minus similique iure rem a doloribus.</p>
+            <h3>Articulos Destacados</h3>
+            <div class="articulos">
+                <a href="">Vinculo 1</a> <hr>
+                <a href="">Vinculo 2</a> <hr>
+                <a href="">Vinculo 3</a> <hr>
+                <a href="">Vinculo 4</a> <hr>
+            </div>
+        </aside>
+    </main>
+    <footer>Parada</footer>
+</body>
+</html>

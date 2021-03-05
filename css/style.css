@@ -1,0 +1,115 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: gray;
+}
+h1,h3{
+   text-align: center;
+
+}
+.icono-menu{
+    display: none;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.main{
+    display: flex;
+    flex-flow: column, wrap;
+    flex: 12;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: baseline;
+}
+
+hr{
+    border-top: 1px solid #000;
+}
+.menu{
+    flex: 2;
+}
+.submenu{
+    margin: auto;
+    text-align: center;
+    
+}
+.submenu a{
+    display: block;
+    padding: 15px;
+    color: black;
+}
+.submenu a:hover{
+    color: white;
+    background-color: black;
+}
+.articulo img{
+    display: block;
+    background-color: gray;
+    width: 30%;
+    margin: 15px auto;
+}
+.articulo{
+    flex: 8;
+    margin: auto;
+}
+.aside{
+    flex: 2;
+    margin:15px;
+}
+
+.articulos{
+    margin:15px 0;
+    text-align: center;
+    padding: 5px;
+}
+.articulos a{
+    display: block;
+    color: black;
+    padding: 5px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+}
+
+@media (max-width:800px){
+    .main{
+        flex-flow: column wrap;
+    }
+    .menu{
+        width: 100%;
+        margin: auto;
+    }
+    .articulo,
+    .aside{
+        display: flexbox;
+        margin: 10px auto;
+        width: 80%;
+    }
+    
+    .submenu {
+        margin-top: -100%;
+        transition: all 0.5s ease-out;
+    }
+    .icono-menu{
+		display:block;
+    }
+    .mostrar{
+		margin-top:0px;
+    }
+    .titulo{
+    background: #000;
+    color: #fff;
+    }
+}
